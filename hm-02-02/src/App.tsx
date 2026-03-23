@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import { Posts } from './components/posts component/PostsP'
+import { Mainc } from './components/main component/MainC'
 
 function App() {
 
 
   return (
     <>
-      <Posts/>
+      <Mainc />
     </>
   )
 }

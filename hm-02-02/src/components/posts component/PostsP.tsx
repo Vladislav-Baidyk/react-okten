@@ -16,7 +16,7 @@ export const Posts = () => {
     return (
         <>
         <div className="container">
-            {posts.slice(0,10).map((post:PostM) => {return <PostC key={post.id} post = {post} />})}
+            {posts.map((post:PostM) => {return <PostC key={post.id} post = {post} />})}
         </div>
         </>
     )
