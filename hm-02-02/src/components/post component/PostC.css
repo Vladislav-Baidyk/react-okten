@@ -1,0 +1,21 @@
+.box{
+    width: 20rem;
+    height: 20rem;
+    background: rgba(8, 65, 77, 0.808);
+    color: rgba(255, 255, 255, 0.88);
+    overflow: hidden;
+    border-radius: 1rem;
+}
+.box-content{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 2rem;
+    gap: 0.5rem;
+}
+.box-header{
+    font-weight: bolder;
+}
