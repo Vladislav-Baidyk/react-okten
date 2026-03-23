@@ -1,0 +1,43 @@
+.box{
+    width: 20rem;
+    height: 20rem;
+    background:white;
+    overflow: hidden;
+    border-radius: 3rem;
+    box-shadow: 15px 15px 10px #43474e;
+    border:  3px solid #ffd90f;
+    position: relative;
+}
+.circle{
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    background: #70d1fe;
+    border-radius: 8rem;
+    opacity: 0.8;
+    left: 58%;
+    top: -20%;
+}
+.box-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 1rem;
+}
+.photo{
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    object-position: 100% 0%;
+    border-radius: 100rem;
+    border: 1px solid #ffd90f;
+}
+.header{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #43474e;
+    font-family: bolder;
+    font-size: 1.5rem;
+}
+.info{
+    font-size: 0.9rem;
+}
