@@ -1,0 +1,12 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 3rem;
+    background: rgba(4, 4, 86, 0.969);
+}
