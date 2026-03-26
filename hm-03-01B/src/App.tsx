@@ -1,0 +1,23 @@
+import { useState } from 'react'
+import './App.css'
+import { Link,Outlet } from 'react-router-dom'
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+<div>
+      <nav>
+
+        <Link to="/users">Users</Link> | 
+        <Link to="/posts">Posts</Link> | 
+        <Link to="/comments">Comments</Link>
+      </nav>
+      
+      <hr />
+
+      <Outlet /> 
+    </div>
+  )
+}
+
+export default App
